@@ -71,12 +71,14 @@ router.get('/getKey', async (req, res, next) => {
 
 router.get('/Pa_MB_Empresa', jwtMW, async (req, res, next) => {
 
+    var Texto = req.query.Texto;
     var Opcion = req.query.Opcion;
 
     if (Opcion != null) {
         try {
             const pool = await poolPromise
             const queryResult = await pool.request()
+                .input('Texto', sql.VarChar, Texto)
                 .input('Opcion', sql.Int, 1)
                 .execute('Pa_MB_Empresa')
 
