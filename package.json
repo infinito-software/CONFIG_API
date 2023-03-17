@@ -10,7 +10,7 @@
     "start": "node app.js"
   },
   "engines": {
-    "node": "16.14.2"
+    "node": "18.5.0"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
