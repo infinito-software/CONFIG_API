@@ -4,7 +4,7 @@
 var config = {
     user: 'sa',
     password: '@@Infinito1234',
-    server: '212.83.166.109',
+    server: '167.114.106.184',
     database: 'BD_CONFIG'
 };
  
