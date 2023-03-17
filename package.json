@@ -9,6 +9,9 @@
   "scripts": {
     "start": "node ."
   },
+  "engines": {
+    "node": "18.5.0"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cloudinary": "^1.22.0",
