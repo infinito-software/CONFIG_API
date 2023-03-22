@@ -1,6 +1,6 @@
 'use strict';
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 var express = require('express')
 var bodyParser = require('body-parser')
