@@ -2,9 +2,9 @@
 
 
 var config = {
-    user: 'sa',
+    user: 'Infinito_admin',
     password: '@@Infinito1234',
-    server: '167.114.106.184',
+    server: '161.132.56.51',
     database: 'BD_CONFIG'
 };
  
