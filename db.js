@@ -2,8 +2,8 @@
 
 
 var config = {
-    user: 'Infinito_admin',
-    password: '@@Infinito1234',
+    user: 'InfinitoAdmin',
+    password: '@1nf1n1t0d@t@',
     server: '161.132.56.51',
     database: 'BD_CONFIG'
 };
